@@ -1,0 +1,20 @@
+Dockerfile
+Dockerfile.workers
+.dockerignore
+docker-compose.*
+node_modules
+npm-debug.log
+README.md
+.next
+.git*
+.env*
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+dist
+test
+logs
+test.js
+ecosystem.config.js
+storage/*
+!storage/.gitkeep
