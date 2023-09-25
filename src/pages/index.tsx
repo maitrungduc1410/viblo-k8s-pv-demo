@@ -37,8 +37,6 @@ export default function Home() {
               mode="basic"
               name="file"
               url="/api/upload"
-              accept="image/*"
-              maxFileSize={1000000}
               auto
               chooseLabel="Browse"
               onUpload={(e) => {
