@@ -16,5 +16,4 @@ test
 logs
 test.js
 ecosystem.config.js
-storage/*
-!storage/.gitkeep
+storage
