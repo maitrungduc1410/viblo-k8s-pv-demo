@@ -24,6 +24,7 @@ export default async function handler(
   try {
     [fields, files] = await form.parse(req);
   } catch (err: any) {
+    console.error(err)
     return res.status(500).send("Internal Server Error");
   }
   const file = (files.file as formidable.File[])[0];
